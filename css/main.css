@@ -317,16 +317,16 @@ button:hover {
 
 .banner-tablet-container:hover .banner-tablet {
   opacity: 1;
-  animation: stayVisible 500s infinite;
+  animation: visible 500s infinite;
   animation-duration: 500s;
 }
 
 .banner-tablet-container:hover .banner-tablet-n {
   opacity: 0;
-  animation: stayinVisible 500s infinite;
+  animation: invisible 500s infinite;
 }
 
-/* @keyframes stayVisible {
+/* @keyframes visible {
   0% {
       opacity: 1;
  }
@@ -336,7 +336,7 @@ button:hover {
 }
 */
 
-@keyframes stayinVisible {
+@keyframes invisible {
   0% {
       opacity: 0;
  }
@@ -378,16 +378,16 @@ transition-delay: 1s;
 
 .banner-tablet-container:hover .banner-tablet {
 opacity: 1;
-animation: stayVisible 500s infinite;
+animation: visible 500s infinite;
 animation-duration: 500s;
 }
 
 .banner-tablet-container:hover .banner-tablet-n {
 opacity: 0;
-animation: stayinVisible 500s infinite;
+animation: visible 500s infinite;
 }
 
-@keyframes stayVisible {
+@keyframes visible {
 0% {
   opacity: 1;
 }
@@ -397,7 +397,7 @@ animation: stayinVisible 500s infinite;
 }
 
 
-@keyframes stayinVisible {
+@keyframes invisible {
 0% {
   opacity: 0;
 }
