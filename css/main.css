@@ -319,11 +319,13 @@ button:hover {
   opacity: 1;
   animation: stayvisible 500s infinite;
   animation-duration: 500s;
+  animation-fill-mode: forwards;
 }
 
 .banner-tablet-container:hover .banner-tablet-n {
   opacity: 0;
   animation: stayinvisible 500s infinite;
+  animation-fill-mode: forwards;
 }
 
 /* @keyframes stayVisible {
@@ -371,8 +373,9 @@ height: 100%;
 position: absolute;
 top: 0;
 left: 0;
-transition: opacity 15s ease-in-out;
-transition-delay: 1s;
+transition: opacity 15s ease;
+transition-delay: 3s;
+animation-fill-mode: forwards;
 }
 
 
@@ -380,11 +383,14 @@ transition-delay: 1s;
 opacity: 1;
 animation: stayvisible 500s infinite;
 animation-duration: 500s;
+animation-fill-mode: forwards;
+transition: opacity 15s ease-in;
 }
 
 .banner-tablet-container:hover .banner-tablet-n {
 opacity: 0;
 animation: stayinvisible 500s infinite;
+transition: opacity 15s ease-in;
 }
 
 @keyframes stayvisible {
