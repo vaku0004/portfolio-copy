@@ -351,11 +351,10 @@ button:hover {
   body {
       background-color: white;
  }
-  .banner-tablet, .banner-tablet2, .banner-mobile {
-      display: none;
- }
+ .banner-mobile, .banner-dekstop, .banner-tablet2 {
+  display: none;
 }
-
+}
 
 /*hidden page*/
 
